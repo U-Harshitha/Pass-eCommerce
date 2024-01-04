@@ -1,8 +1,8 @@
 import java.sql.*;
 public class StudentDatabaseApp {
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/mydb";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/javadb";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "sfu%gsu46-&#";
+    private static final String PASSWORD = "harshithA14";
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
